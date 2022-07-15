@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+<title>indian cricket team </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--start Header-->
+    <header>
+        <nav>
+            <div class="logo">CRICKETE<span>R</span></div>
+            <div class="open"><i class="fas fa-bars"></i></div>
+            <ul class="links">
+                <li><a href="#"class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#con">CONTACT</a></li>
+                <li><a href="/login">LOGIN</a></li>
+                <div class="close"><i class="fas fa-times"></i></div>
+            </ul>
+        </nav>
+        <div class="content">
+<h1>THE INDIAN CRICKET TEAM</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="/login" class="btn">Get Start</a>    
+    </div>
+    </header>
+    <!--javascript section -->
+    <script>
+        var mainmenu = document.querySelector('.links')
+        var openmenu = document.querySelector('.open')
+        var closemenu = document.querySelector('.close')
+
+        openmenu.addEventListener('click',show)
+        closemenu.addEventListener('click',close)
+
+        function show(){
+            mainmenu.style.display='flex'
+            mainmenu.style.right='0'
+        }
+        function close(){
+            mainmenu.style.right='-60%'
+        }
+   </script>
+
+    <!--start about-->
+    <section class="about" id="about">
+        <div class="main">
+            <img src="assest/images/about1.jpeg" >
+            <div class="about-text">
+                <h1>a word about us</h1>
+                <p>The India men's national cricket team, also known as Team India or the Men in Blue, represents India in men's international cricket.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+   </section>
+   <!--start services-->
+   <section class="services" id="gallery">
+       <h1>TEAM GALLERY</h1>
+       <div class="container">
+        <div class="box">
+        <img src="assest/images/11.jpg">
+        <div class="info">
+        <h3>Virat Koli</h3>
+        <p>Virat Kohli is an Indian international cricketer and former captain of the India national cricket team. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in the Indian Premier League as a right-handed batsman.</p>
+        <a href="/login" class="btn">Learn more</a>  
+       </div>
+       </div>
+       <div class="box">
+        <img src="assest/images/21.jpg">
+        <div class="info">
+        <h3>Rohit Sharma</h3>
+       <p>Rohit Gurunath Sharma is an Indian international cricketer who is the current captain of the Indian national team. A right-handed opening batsman and an occasional right-arm off break bowler, he is widely acknowledged as one of the most outstanding batsmen of current era in limited overs cricket.</p>
+       <a href="/login" class="btn">Learn more</a>  
+       </div>
+       </div>
+       <div class="box">
+        <img src="assest/images/31.jpg">
+        <div class="info">
+        <h3>suryakumar yadav</h3>
+      <p>Suryakumar Ashok Yadav is an Indian cricketer who plays for India in the ODI and T20I formats. He represents Mumbai in domestic cricket and plays for Mumbai Indians in the Indian Premier League. He is a right-handed versatile batsman and an occasional right-arm medium pace and spin bowler.</p>
+      <a href="/login" class="btn">Learn more</a>  
+       </div>
+       </div>
+    
+       <div class="box">
+        <img src="assest/images/41.jpg">
+        <div class="info">
+        <h3>Hardik Pandya</h3>
+       <p>Hardik Himanshu Pandya is an Indian international cricketer who plays for the India national cricket team at the international level and the Baroda cricket team domestically.</p>
+       <a href="/login" class="btn">Learn more</a>   
+       </div>
+       </div>
+       
+       <div class="box">
+        <img src="assest/images/51.jpg">
+        <div class="info">
+        <h3>Ravindra Jadeja</h3>
+       <p>Ravindrasinh Anirudhsinh Jadeja, commonly known as Ravindra Jadeja, is an Indian international cricketer. He is an all-rounder, who bats left-handed and bowls left-arm orthodox spin. He was the captain of the Chennai Super Kings in the Indian Premier League. He represents Saurashtra in first-class cricket.</p>
+       <a href="/login" class="btn">Learn more</a>  
+       </div>
+       </div>
+       
+       <div class="box">
+        <img src="assest/images/61.jpg">
+        <div class="info">
+        <h3>KL Rahul</h3>
+      <p>Kannaur Lokesh Rahul is an Indian cricketer who currently is the vice-captain of the India national team in all formats. He plays for Karnataka in domestic cricket. He is the current captain of Lucknow Super Giants in the Indian Premier League. </p>
+      <a href="/login" class="btn">Learn more</a>   
+       </div>
+       </div>
+       <!--Contact Us-->
+       <section class="con" id="con">
+           <div class="con-form">
+               <h1>contact<span>Us</span></h1>
+               <p>I am Manoj.Contact with me via phone:+91xxxxxxx</p>
+               <form action="">
+                   <input type="" placeholder="Your Name" required>
+                   <input type="email" name="email" id="" placeholder="E-mail" required>
+                   <input type="" placeholder="wright a subject" required>
+                   <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                 <input type="submit" name="" value="submit" class="btn">
+                </form>
+           </div>
+           
+       </section>
+                        
+</body>
+</html>
